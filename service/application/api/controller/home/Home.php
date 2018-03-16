@@ -48,7 +48,7 @@ class Home extends BaseController{
 
 	public function getClassify() {
 		$type = Type::getAllType();
-		if ($type->isEmpty()) {
+		if (!$type) {
 			throw new RequestMissException();
 		} else {
 			return $type;
