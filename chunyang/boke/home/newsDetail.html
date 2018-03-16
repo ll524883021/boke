@@ -1,0 +1,302 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>个人主页</title>
+	<link href="Css/lan.css" rel="stylesheet" type="text/css" />
+	<script src="Scripts/common_tpl.js" type="text/javascript"></script>
+	<script src="jquery-3.0.0.min.js" type="text/javascript"></script>
+	<script src="template-web.js" type="text/javascript"></script>
+	<script src="./model/base-model.js" type="text/javascript"></script>
+	<script src="./model/newsDetail-model.js" type="text/javascript"></script>
+</head>
+<style>
+	.classify {
+		color: #00688B;
+		width:calc(100%/2 - 5px);
+		display: inline-block;
+	}
+	.weiyu-hr {
+		height: 1px;
+		background: #00688B;
+	}
+	</style>
+<body style="background-image: url(Images/bg.png)">
+
+	<div id="top">
+		<dl>
+			<span>
+				<a href="http://www.javacui.com//m" target="_blank">手机端</a>
+			</span>小强原创文章，java小强个人博客站点</dl>
+	</div>
+
+	<div id="w980">
+		<div id="nav">
+			<ul>
+				<ul class="bar">
+					<li class="item current">
+						<a href="index.html">
+							<span>首页</span>
+						</a>
+					</li>
+					<li class="item common">
+						<a href="weiyu.html">
+							<span>微语</span>
+						</a>
+					</li>
+					<li class="item common">
+						<a href="readme.html">
+							<span>关于我</span>
+						</a>
+					</li>
+					<li class="item common">
+						<a href="leaveMessage.html">
+							<span>留言薄</span>
+						</a>
+					</li>
+				</ul>
+			</ul>
+		</div>
+
+		<div id="place"></div>
+		<script id="placeTemplate" type="text/html">
+			当前位置：
+			<a href="index.html">首页</a> >>
+			<a href="index.html?id={{id}}" class="secai">{{type}}</a>
+			>> {{title}}
+		</script>
+
+		<script type="text/javascript" src="Scripts/shcore.min.js"></script>
+		<script type="text/javascript" src="Scripts/shautoloader.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushas3.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushapplescript.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushbash.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushcsharp.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushcoldfusion.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushcpp.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushcss.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushdelphi.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushdiff.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrusherlang.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushgroovy.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushjscript.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushjava.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushjavafx.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushperl.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushphp.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushplain.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushpowershell.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushpython.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushruby.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushsass.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushscala.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushsql.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushvb.min.js"></script>
+		<script type="text/javascript" src="Scripts/shbrushxml.min.js"></script>
+		<script type="text/javascript" src="Scripts/shlegacy.min.js"></script>
+
+		<link type="text/css" rel="stylesheet" href="Css/shcore.min.css" />
+		<link type="text/css" rel="stylesheet" href="Css/shcoredefault.min.css" />
+
+		<script type="text/javascript">
+			SyntaxHighlighter.all();
+		</script>
+		<div id="cennr">
+			<div id="left" class="xian">
+				<dl id="info">
+					<div id="newsDetail">
+					</div>
+					<script id="newsDetailTemplate" type="text/html">
+						<dt>
+							<h1>{{title}}</h1>
+							<span>
+								<em class="kan">{{collect}}</em>
+								<em class="ping">{{comment}}</em>
+							</span>
+							<a href="index.html?id={{id}}" class="secai">{{type}}</a>
+							| {{create_at}} 
+						</dt>
+						<dd id="zi">
+							{{content}}
+						</dd>	
+					</script>
+
+					<div style="padding-top:20px;">
+						<div class="bdsharebuttonbox">
+							<a href="#" class="bds_copy" data-cmd="copy" title="分享到复制网址">复制网址</a>
+							<a href="#" class="bds_print" data-cmd="print" title="分享到打印">打印</a>
+							<a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a>
+							<a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友">QQ好友</a>
+							<a href="#" class="bds_youdao" data-cmd="youdao" title="分享到有道云笔记">有道云笔记</a>
+							<a href="#" class="bds_more" data-cmd="more">分享到：</a>
+						</div>
+					</div>					
+					<script>window._bd_share_config = { "common": { "bdSnsKey": {}, "bdText": "", "bdMini": "2", "bdMiniList": false, "bdPic": "", "bdStyle": "1", "bdSize": "16" }, "share": { "bdSize": 16 } }; with (document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];</script>
+					
+					<dd id="post_nav">
+					</dd>
+					<dd id="guan">
+						<h2>猜你喜欢</h2>
+						<ul id="cainixihuan">	
+						</ul>
+						<script id="cainixihuanTemplate" type="text/html">
+							<li>
+								<span>{{time}}</span>
+								<a href="javascript:;" class="onclickDetailnav" data-id="{{id}}">{{title}}</a>
+							</li>
+						</script>
+					</dd>
+				</dl>
+
+				<div id="comment-place">
+					<div class="comment-post" id="comment-post">
+						<div class="cancel-reply" id="cancel-reply" style="display:none">
+							<a href="javascript:void(0);" onclick="cancelReply()">取消回复</a>
+						</div>
+						<h3 class="comment-header">发表评论：
+							<a name="respond"></a>
+						</h3>
+						<form method="post" name="commentform" action="http://www.javacui.com/index.php?action=addcom" id="commentform">
+							<input type="hidden" name="gid" value="489" />
+							<p class="uinfo">
+								<input type="text" name="comname" maxlength="49" value="" size="22" tabindex="1">
+								<label for="author">
+									<small>昵称 (
+										<font color="#CC0000">必填</font>)</small>
+								</label>
+							</p>
+							<p class="uinfo">
+								<input type="text" name="commail" maxlength="128" value="" size="22" tabindex="2">
+								<label for="email">
+									<small>邮箱</small>
+								</label>
+							</p>
+							<p class="uinfo">
+								<input type="text" name="comurl" maxlength="128" value="" size="22" tabindex="3">
+								<label for="url">
+									<small>主页</small>
+								</label>
+							</p>
+							<div class="clear"></div>
+							<p class="utext">
+								<textarea name="comment" id="comment" rows="10" tabindex="4"></textarea>
+							</p>
+							<p class="btn">
+								<img src="Picture/checkcode.php" align="absmiddle" />
+								<input name="imgcode" type="text" class="input" size="5" tabindex="5" />
+								<input type="submit" id="comment_submit" value="发表评论" tabindex="6" />
+							</p>
+							<input type="hidden" name="pid" id="comment-pid" value="0" size="22" tabindex="1" />
+						</form>
+					</div>
+				</div>
+				<div id="pagenavi">
+				</div>
+			</div>
+
+			<div id="rigth">
+
+					<dl>
+						<dt>个人资料</dt>
+						<dd id="bloggerinfo">
+							<div id="bloggerinfoimg">
+								<img src="Picture/thum-80a71449481706.jpg" width="140" height="136" alt="blogger" />
+							</div>
+							<p>
+								<b>java小强</b>
+								<br /> 没有思考，人生的路会越走越难！ </p>
+						</dd>
+					</dl>
+					<dl>
+						<dt>搜索</dt>
+						<dd>
+							<ul id="logsearch">
+								<form name="keyform" method="get" action="http://www.javacui.com/index.php">
+									<input name="keyword" class="search" type="text" style="height:25px" />
+								</form>
+							</ul>
+						</dd>
+					</dl>
+					<dl>
+						<dt>分类</dt>
+						<dd>
+							<ul id="blogsort">
+							</ul>
+							<script id="classifyTemplate" type="text/html">
+								<a href="index.html?id={{id}}" ><li class="classify">{{name}}({{count}})</li></a>
+							</script>
+						</dd>
+					</dl>
+					<dl>
+						<dt>最新微语</dt>
+						<dd>
+							<ul id="twitter">
+							</ul>
+							<p>
+								<a href="weiyu.html">更多&raquo;</a>
+							</p>
+							<script id="twitterTemplate" type="text/html">
+								<li>
+									<div class="weiyu-content">{{content}}</div>
+									<p>{{create_at}}</p>
+									<hr class="weiyu-hr">
+								</li>
+							</script>
+						</dd>
+					</dl>
+					<dl>
+						<dt>最新文章</dt>
+						<dd>
+							<ul id="newlog">
+							</ul>
+							<script id="newlogTemplate" type="text/html">
+								<li>
+									<a href="newsDetail.html?id={{id}}">{{title}}</a>
+								</li>
+							</script>
+						</dd>
+					</dl>
+					<dl>
+						<dt>热门文章</dt>
+						<dd>
+							<ul id="hotlog">
+							</ul>
+							<script id="hotlogTemplate" type="text/html">
+								<li>
+									<a href="newsDetail.html?id={{id}}">{{title}}</a>
+								</li>
+							</script>
+						</dd>
+					</dl>
+					<!--end #siderbar-->
+				</div>
+			<div class="clear"></div>
+		</div>
+
+		<div class="clear"></div>
+		<div id="footer">
+				<strong>+友情链接</strong>
+				<p>
+					<table cellPadding="2" cellspacing="2">
+						<tr id="FriendshipLink">						
+						</tr>
+						<script id="FriendshipLinkTemplate" type="text/html">
+							<td style="padding-right:10px">
+								<a style="color:#00688B;" href="{{link}}" title="" target="_blank">{{name}}</a>
+							</td>
+						</script>
+					</table>
+				</p>
+			</div>
+			<div class="clear"></div>
+			<div id="footer" align="center">
+				<a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备17117302号-1</a>&nbsp;
+			</div>
+
+	</div>
+</body>
+
+</html>

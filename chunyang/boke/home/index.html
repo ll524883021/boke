@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>个人主页</title>
+	<link href="Css/lan.css" rel="stylesheet" type="text/css" />
+	<script src="Scripts/common_tpl.js" type="text/javascript"></script>
+	<script src="jquery-3.0.0.min.js" type="text/javascript"></script>
+	<script src="template-web.js" type="text/javascript"></script>
+	<script src="./model/base-model.js" type="text/javascript"></script>
+	<script src="./model/home-model.js" type="text/javascript"></script>
+</head>
+<style>
+	.classify {
+		color: #00688B;
+		width:calc(100%/2 - 5px);
+		display: inline-block;
+	}
+	.weiyu-hr {
+		height: 1px;
+		background: #00688B;
+	}
+</style>
+<body style="background-image: url(Images/bg.png);">
+
+	<div id="top">
+		<dl>
+			<span>
+				<a href="http://www.javacui.com//m" target="_blank">手机端</a>
+			</span>小强原创文章，java小强个人博客站点</dl>
+	</div>
+
+	<div id="w980">
+		<div id="nav">
+			<ul>
+				<ul class="bar">
+					<li class="item current">
+						<a href="index.html">
+							<span>首页</span>
+						</a>
+					</li>
+					<li class="item common">
+						<a href="weiyu.html">
+							<span>微语</span>
+						</a>
+					</li>
+					<li class="item common">
+						<a href="readme.html">
+							<span>关于我</span>
+						</a>
+					</li>
+					<li class="item common">
+						<a href="leaveMessage.html">
+							<span>留言薄</span>
+						</a>
+					</li>
+				</ul>
+			</ul>
+		</div>
+
+		<div id="place">当前位置： 首页
+		</div>
+		<div id="cennr">
+			<div id="left" class="xian">
+				<div id="newsList"></div>
+				<script id="newsListTemplate" type="text/html">
+					<dl id="lieb">
+						<dt>
+							<h2>
+								<a href="newsDetail.html?id={{id}}" target="_blank">{{title}}</a>
+							</h2>
+							<span>
+								<em class="kan">{{collect}}</em>
+								<em class="ping">{{comment}}</em>
+							</span>
+							<a href="javascript:;" class="secai">{{type}}</a>
+							| {{create_at}} </dt>
+						<dd>
+							<i>
+								<a href="newsDetail.html?id={{id}}" title="{{title}}" class="tu">
+									<img src="Picture/1491962308867868.jpg">
+								</a>
+							</i>
+							{{content}}
+							<a
+							href="newsDetail.html?id={{id}}" class="more secai" target="_blank">查看详细</a>
+							<div class="clear"></div>
+						</dd>
+					</dl>
+				</script>
+				<div id="pagenavi"></div>
+			</div>
+
+			<div id="rigth">
+
+				<dl>
+					<dt>个人资料</dt>
+					<dd id="bloggerinfo">
+						<div id="bloggerinfoimg">
+							<img src="Picture/thum-80a71449481706.jpg" width="140" height="136" alt="blogger" />
+						</div>
+						<p>
+							<b>java小强</b>
+							<br /> 没有思考，人生的路会越走越难！ </p>
+					</dd>
+				</dl>
+				<dl>
+					<dt>搜索</dt>
+					<dd>
+						<ul id="logsearch">
+							<form name="keyform" method="get" action="http://www.javacui.com/index.php">
+								<input name="keyword" class="search" type="text" style="height:25px" />
+							</form>
+						</ul>
+					</dd>
+				</dl>
+				<dl>
+					<dt>分类</dt>
+					<dd>
+						<ul id="blogsort">
+						</ul>
+						<script id="classifyTemplate" type="text/html">
+							<a href="javascript:;" ><li class="classify" inhao="123" data-id="{{id}}">{{name}}({{count}})</li></a>
+						</script>
+					</dd>
+				</dl>
+				<dl>
+					<dt>最新微语</dt>
+					<dd>
+						<ul id="twitter">
+						</ul>
+						<p>
+							<a href="weiyu.html">更多&raquo;</a>
+						</p>
+						<script id="twitterTemplate" type="text/html">
+							<li>
+								<div class="weiyu-content">{{content}}</div>
+								<p>{{create_at}}</p>
+								<hr class="weiyu-hr">
+							</li>
+						</script>
+					</dd>
+				</dl>
+				<dl>
+					<dt>最新文章</dt>
+					<dd>
+						<ul id="newlog">
+						</ul>
+						<script id="newlogTemplate" type="text/html">
+							<li>
+								<a href="newsDetail.html?id={{id}}">{{title}}</a>
+							</li>
+						</script>
+					</dd>
+				</dl>
+				<dl>
+					<dt>热门文章</dt>
+					<dd>
+						<ul id="hotlog">
+						</ul>
+						<script id="hotlogTemplate" type="text/html">
+							<li>
+								<a href="newsDetail.html?id={{id}}">{{title}}</a>
+							</li>
+						</script>
+					</dd>
+				</dl>
+				<!--end #siderbar-->
+			</div>
+		</div>
+
+		<div class="clear"></div>
+		<div class="clear"></div>
+		<!-- 增加友情连接 -->
+		<div id="footer">
+			<strong>+友情链接</strong>
+			<p>
+				<table cellPadding="2" cellspacing="2">
+					<tr id="FriendshipLink">						
+					</tr>
+					<script id="FriendshipLinkTemplate" type="text/html">
+						<td style="padding-right:10px">
+							<a style="color:#00688B;" href="{{link}}" title="" target="_blank">{{name}}</a>
+						</td>
+					</script>
+				</table>
+			</p>
+		</div>
+		<div class="clear"></div>
+		<div id="footer" align="center">
+			<a href="http://www.miitbeian.gov.cn/" target="_blank">粤ICP备17117302号-1</a>&nbsp;
+		</div>
+	</div>
+</body>
+</html>
