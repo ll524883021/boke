@@ -1,0 +1,357 @@
+[ 2018-03-14T15:34:34+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news?XDEBUG_SESSION_START=10899
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news?XDEBUG_SESSION_START=10899 [运行时间：0.068012s][吞吐率：14.70req/s] [内存消耗：4,208.80kb] [文件加载：47]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000848s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015190s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.003566s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T15:38:55+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/1?XDEBUG_SESSION_START=10899
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/1?XDEBUG_SESSION_START=10899 [运行时间：0.076881s][吞吐率：13.01req/s] [内存消耗：4,560.41kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000860s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015185s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` WHERE  `a`.`type` = '1' ORDER BY `a`.`create_at`  desc [ RunTime:0.003348s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T15:39:01+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/1?XDEBUG_SESSION_START=10899
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/1?XDEBUG_SESSION_START=10899 [运行时间：0.071657s][吞吐率：13.96req/s] [内存消耗：4,559.23kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000743s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.014746s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` WHERE  `a`.`type` = '1' ORDER BY `a`.`create_at`  desc [ RunTime:0.003485s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:03:49+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899 [运行时间：0.066505s][吞吐率：15.04req/s] [内存消耗：4,563.23kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000857s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.014910s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.003424s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:11:21+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899 [运行时间：0.076343s][吞吐率：13.10req/s] [内存消耗：4,564.42kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000907s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015289s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.005678s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:12:14+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899 [运行时间：0.077221s][吞吐率：12.95req/s] [内存消耗：4,564.16kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000753s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.007332s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.004309s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:13:32+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899 [运行时间：0.073045s][吞吐率：13.69req/s] [内存消耗：4,564.22kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000861s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.014777s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.003460s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:14:42+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899 [运行时间：0.069991s][吞吐率：14.29req/s] [内存消耗：4,564.58kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000774s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015431s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.003654s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:24:31+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all?XDEBUG_SESSION_START=10899 [运行时间：0.072305s][吞吐率：13.83req/s] [内存消耗：4,564.58kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000891s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015343s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.004976s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:36:19+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.098569s][吞吐率：10.15req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001420s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.046709s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.006725s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:38:57+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.072424s][吞吐率：13.81req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000696s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.021979s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.005537s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:43:15+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.070314s][吞吐率：14.22req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000671s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.023054s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.005799s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:45:32+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.085628s][吞吐率：11.68req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000751s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.030716s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.009331s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:46:01+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.077039s][吞吐率：12.98req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.025408s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.006154s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:46:47+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.074444s][吞吐率：13.43req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000666s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.023779s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.005507s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:46:52+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.081622s][吞吐率：12.25req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.025809s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.006459s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:47:00+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.060675s][吞吐率：16.48req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001047s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.016019s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.003635s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:47:43+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.078051s][吞吐率：12.81req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000619s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.026095s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.005991s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:48:31+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.065327s][吞吐率：15.31req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000807s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.007253s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.005214s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:54:14+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.078103s][吞吐率：12.80req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000743s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.025042s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.005355s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:55:22+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.079857s][吞吐率：12.52req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000700s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.018274s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.006501s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:55:24+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.063752s][吞吐率：15.69req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000634s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015595s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.003689s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:55:44+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.077031s][吞吐率：12.98req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000614s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.027183s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.006339s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:56:35+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.071517s][吞吐率：13.98req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001827s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.021828s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.005191s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:56:37+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.074657s][吞吐率：13.39req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000762s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.022937s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.006534s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:56:38+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.080121s][吞吐率：12.48req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000608s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.023482s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.007021s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:56:38+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.080159s][吞吐率：12.48req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000738s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.030811s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.008274s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T16:56:56+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.070194s][吞吐率：14.25req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000689s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.026466s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.005746s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:04:09+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.082134s][吞吐率：12.18req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000881s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.020421s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.010993s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:04:18+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.084284s][吞吐率：11.86req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000716s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.038028s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.010120s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:04:45+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.075779s][吞吐率：13.20req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000675s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.028372s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.009549s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:05:11+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.073399s][吞吐率：13.62req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000755s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.026453s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.009122s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:05:26+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.087150s][吞吐率：11.47req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000620s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.040019s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.010188s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:06:53+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.111107s][吞吐率：9.00req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.058877s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.013343s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:07:21+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.091073s][吞吐率：10.98req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000862s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.042995s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.010611s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:08:08+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.093220s][吞吐率：10.73req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000674s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.043454s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.010624s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:10:32+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.070496s][吞吐率：14.19req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000663s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.018908s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.009293s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:30:05+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.103949s][吞吐率：9.62req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001444s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.048278s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.010365s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:33:31+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.084061s][吞吐率：11.90req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000773s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.037199s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.010014s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:33:33+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.091854s][吞吐率：10.89req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000790s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.038882s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.011147s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:34:53+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.093320s][吞吐率：10.72req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000825s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.037650s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.016334s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:34:56+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.070003s][吞吐率：14.29req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000792s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.020179s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.009280s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:34:57+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.075491s][吞吐率：13.25req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000750s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.020656s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.010914s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:35:12+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.087347s][吞吐率：11.45req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000745s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.041775s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.009951s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T17:35:21+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.089958s][吞吐率：11.12req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001703s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.026957s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.012239s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T18:36:40+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.080907s][吞吐率：12.36req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001465s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.020289s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.004366s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T18:39:49+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.069614s][吞吐率：14.36req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.016942s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.003695s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T18:40:17+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.070998s][吞吐率：14.08req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000659s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.027447s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.006350s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T18:42:49+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.060629s][吞吐率：16.49req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000908s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.015238s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.003748s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T18:45:31+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.070237s][吞吐率：14.24req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000659s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.025707s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.006093s ]
+
+---------------------------------------------------------------
+[ 2018-03-14T18:45:37+08:00 ] ::1 ::1 GET /eclipse/chunyang/boke/service/public/index.php/api/home/news/all
+[ log ] localhost/eclipse/chunyang/boke/service/public/index.php/api/home/news/all [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：4,565.85kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000683s ] mysql:dbname=boke;host=127.0.0.1;port=33060;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `news` [ RunTime:0.023604s ]
+[ sql ] [ SQL ] SELECT `a`.`id`,`a`.`title`,`a`.`content`,`a`.`collect`,`a`.`comment`,`a`.`create_at`,`b`.`name` AS `type`,`c`.`path` FROM `news` `a` INNER JOIN `type` `b` ON `a`.`type`=`b`.`id` INNER JOIN `img` `c` ON `a`.`img`=`c`.`id` ORDER BY `a`.`create_at`  desc [ RunTime:0.005255s ]
+
+---------------------------------------------------------------
