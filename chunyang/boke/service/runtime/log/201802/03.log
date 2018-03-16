@@ -1,0 +1,1447 @@
+[ 2018-02-03T11:24:21+08:00 ] ::1 ::1 POST /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.127568s][吞吐率：7.84req/s] [内存消耗：1,557.85kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3ed5a56a-1032-47b8-b4e7-41e1339ce08b',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '0',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:24:26+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.020418s][吞吐率：48.98req/s] [内存消耗：1,558.56kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '397f9efc-8f31-4afb-9560-a22b5dffdfa4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:25:00+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.016510s][吞吐率：60.57req/s] [内存消耗：1,558.56kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e009c803-8cc9-4e10-8041-d10c94c2376a',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:26:01+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.015139s][吞吐率：66.06req/s] [内存消耗：1,558.56kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e17cac6d-61af-4158-9b08-6d7df56e4248',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:26:12+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/index.php/banner
+[ log ] localhost/eclipse/test/zerg/public/index.php/banner [运行时间：0.013856s][吞吐率：72.17req/s] [内存消耗：1,558.61kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd4d0e10b-ee71-46e2-a0ca-6d0573ea6e56',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:26:21+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.017889s][吞吐率：55.90req/s] [内存消耗：1,558.56kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ff2238b5-7e82-4ef6-8f89-ac42a5e64366',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:27:10+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.017797s][吞吐率：56.19req/s] [内存消耗：1,558.60kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:28:13+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.019168s][吞吐率：52.17req/s] [内存消耗：1,559.02kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:28:17+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.019132s][吞吐率：52.27req/s] [内存消耗：1,558.98kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:28:19+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.018686s][吞吐率：53.52req/s] [内存消耗：1,559.16kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:29:10+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.019088s][吞吐率：52.39req/s] [内存消耗：1,561.12kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:30:08+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.017037s][吞吐率：58.70req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:30:08+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.015720s][吞吐率：63.61req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:30:09+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.017623s][吞吐率：56.74req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:30:09+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.020320s][吞吐率：49.21req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:30:56+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.017878s][吞吐率：55.93req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:30:57+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.019257s][吞吐率：51.93req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:30:57+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.018581s][吞吐率：53.82req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:30:58+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.018422s][吞吐率：54.28req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:30:58+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.018185s][吞吐率：54.99req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:31:33+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.022943s][吞吐率：43.59req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:31:34+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.018274s][吞吐率：54.72req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:31:35+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.021462s][吞吐率：46.59req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:31:37+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.018113s][吞吐率：55.21req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:31:45+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.019709s][吞吐率：50.74req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:31:50+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.016273s][吞吐率：61.45req/s] [内存消耗：1,562.81kb] [文件加载：28]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:32:31+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/api
+[ log ] localhost/eclipse/test/zerg/public/api [运行时间：0.016324s][吞吐率：61.26req/s] [内存消耗：1,561.21kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:32:36+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/api/vi.banner
+[ log ] localhost/eclipse/test/zerg/public/api/vi.banner [运行时间：0.016177s][吞吐率：61.82req/s] [内存消耗：1,561.34kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'vi.banner',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:32:42+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/api/vi
+[ log ] localhost/eclipse/test/zerg/public/api/vi [运行时间：0.016663s][吞吐率：60.01req/s] [内存消耗：1,561.51kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'vi',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:32:48+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/api/vi/banner
+[ log ] localhost/eclipse/test/zerg/public/api/vi/banner [运行时间：0.017262s][吞吐率：57.93req/s] [内存消耗：1,561.42kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'vi',
+    2 => 'banner',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:32:54+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/api/banner
+[ log ] localhost/eclipse/test/zerg/public/api/banner [运行时间：0.020054s][吞吐率：49.87req/s] [内存消耗：1,561.67kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:33:51+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/api/banner
+[ log ] localhost/eclipse/test/zerg/public/api/banner [运行时间：0.020917s][吞吐率：47.81req/s] [内存消耗：1,561.81kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:33:59+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.014169s][吞吐率：70.58req/s] [内存消耗：1,560.19kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e3858c8d-99e0-463a-b891-5b9f1d64dcb2',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:34:22+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.016141s][吞吐率：61.95req/s] [内存消耗：1,560.19kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f941adea-e119-4871-8c7f-497b6aa0960c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:34:45+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.015917s][吞吐率：62.83req/s] [内存消耗：1,558.56kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bf5dde68-322f-4f9e-9394-65d202f039b0',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:34:46+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.014224s][吞吐率：70.30req/s] [内存消耗：1,558.56kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ffd9b3ed-df3e-4f67-96eb-f89f9c84f1af',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:35:23+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.013863s][吞吐率：72.13req/s] [内存消耗：1,558.56kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '2b301d0e-f786-4d3a-9d43-710a2afa1a34',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:36:19+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/api/banner/1
+[ log ] localhost/eclipse/test/zerg/public/api/banner/1 [运行时间：0.021690s][吞吐率：46.10req/s] [内存消耗：1,559.83kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => '1',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T11:36:25+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/api/banner?id=1
+[ log ] localhost/eclipse/test/zerg/public/api/banner?id=1 [运行时间：0.015547s][吞吐率：64.32req/s] [内存消耗：1,560.37kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'banner',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:49:53+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner
+[ log ] localhost/eclipse/test/zerg/public/banner [运行时间：0.218252s][吞吐率：4.58req/s] [内存消耗：1,558.56kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'banner',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '98bd8fc5-7a9c-4d6a-909d-6fcbba8f548d',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:51:42+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/test
+[ log ] localhost/eclipse/test/zerg/public/test [运行时间：0.013845s][吞吐率：72.23req/s] [内存消耗：1,499.77kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'Test',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '120f9712-4ed7-446e-b7c4-9ed98748e2de',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Test->index[ D:\amp\www\eclipse\test\zerg\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:52:28+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/test
+[ log ] localhost/eclipse/test/zerg/public/test [运行时间：0.012691s][吞吐率：78.80req/s] [内存消耗：1,499.78kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Test',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'eec2f864-0c37-4e13-99fd-241c051d0f05',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\v1\Test->index[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:52:30+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/test
+[ log ] localhost/eclipse/test/zerg/public/test [运行时间：0.017012s][吞吐率：58.78req/s] [内存消耗：1,499.78kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Test',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '8db10dfd-a384-43c0-836c-226b0c877856',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\v1\Test->index[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:53:17+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/demo
+[ log ] localhost/eclipse/test/zerg/public/demo [运行时间：0.013179s][吞吐率：75.88req/s] [内存消耗：1,502.60kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Test',
+    2 => 'demo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '642eca3e-fb57-4162-af4c-60dff4e494a4',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\v1\Test->demo[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:53:28+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/demo
+[ log ] localhost/eclipse/test/zerg/public/demo [运行时间：0.015837s][吞吐率：63.14req/s] [内存消耗：1,563.51kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'demo',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '627391cd-4519-47ca-9479-8e1558061da7',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:54:16+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/demo/1
+[ log ] localhost/eclipse/test/zerg/public/demo/1 [运行时间：0.012796s][吞吐率：78.15req/s] [内存消耗：1,504.81kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Test',
+    2 => 'demo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c9057c0a-9777-4d43-9fde-92a8ba1e3430',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Test->demo[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:54:23+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/demo
+[ log ] localhost/eclipse/test/zerg/public/demo [运行时间：0.013850s][吞吐率：72.20req/s] [内存消耗：1,563.51kb] [文件加载：27]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'demo',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6ed33a71-774d-4970-bc01-49d1c45929e5',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:54:26+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/demo/3
+[ log ] localhost/eclipse/test/zerg/public/demo/3 [运行时间：0.017125s][吞吐率：58.39req/s] [内存消耗：1,504.81kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Test',
+    2 => 'demo',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ff3d4afd-7111-41fb-804b-b675c908a800',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Test->demo[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Test.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:54:53+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.455049s][吞吐率：2.20req/s] [内存消耗：1,380.14kb] [文件加载：23]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3ee75d83-5deb-412e-b4b1-12578205684e',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T12:56:53+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.020932s][吞吐率：47.77req/s] [内存消耗：1,499.30kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4ccf1de7-bfdb-42a0-8397-a1ed8bd8f1e3',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T13:08:29+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.324193s][吞吐率：3.08req/s] [内存消耗：1,575.57kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '287469a5-3c22-462e-b2d5-94c6386dd34c',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T13:08:43+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.018332s][吞吐率：54.55req/s] [内存消耗：1,575.76kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T13:50:14+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.018749s][吞吐率：53.34req/s] [内存消耗：1,499.81kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fd18446b-b8c9-43bb-8c2c-c97e78544822',
+  'user-agent' => 'PostmanRuntime/7.1.1',
+  'accept' => '*/*',
+  'host' => 'localhost',
+  'cookie' => 'PHPSESSID=m4jgbe1j1jesgsesv3jbovlgr5',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:30:32+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.017316s][吞吐率：57.75req/s] [内存消耗：1,575.95kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:31:00+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.016672s][吞吐率：59.98req/s] [内存消耗：1,575.95kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:33:20+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.015866s][吞吐率：63.03req/s] [内存消耗：1,575.95kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:38:12+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.016197s][吞吐率：61.74req/s] [内存消耗：1,575.95kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:38:22+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.015632s][吞吐率：63.97req/s] [内存消耗：1,575.95kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:45:02+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.041168s][吞吐率：24.29req/s] [内存消耗：1,824.52kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:46:55+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.022035s][吞吐率：45.38req/s] [内存消耗：1,824.52kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:47:14+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.018740s][吞吐率：53.36req/s] [内存消耗：1,824.52kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:47:21+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.018016s][吞吐率：55.51req/s] [内存消耗：1,824.52kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:47:26+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.018260s][吞吐率：54.76req/s] [内存消耗：1,824.52kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
+[ 2018-02-03T14:47:30+08:00 ] ::1 ::1 GET /eclipse/test/zerg/public/banner/3
+[ log ] localhost/eclipse/test/zerg/public/banner/3 [运行时间：0.016624s][吞吐率：60.15req/s] [内存消耗：1,824.52kb] [文件加载：25]
+[ info ] [ LANG ] D:\amp\www\eclipse\test\zerg\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ D:\amp\www\eclipse\test\zerg\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+
+---------------------------------------------------------------
