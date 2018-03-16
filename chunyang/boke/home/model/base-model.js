@@ -6,7 +6,8 @@
     }
 })(jQuery);
 
-var baseUrl = "http://localhost/eclipse/chunyang/boke/service/public/index.php/api/";
+//var baseUrl = "http://localhost/eclipse/chunyang/boke/service/public/index.php/api/";
+var baseUrl = "http://www.oooco.top/api/";
 
 $(document).ready(function () {
 
