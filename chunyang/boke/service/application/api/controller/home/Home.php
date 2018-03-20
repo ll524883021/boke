@@ -57,8 +57,18 @@ class Home extends BaseController{
 
 	public function getNewWeiyu() {
 		$newWeiyu = Weiyu::newWeiyu();
-
+		if (!$newWeiyu) {
+			throw new RequestMissException();
+		}
 		return $newWeiyu;
+	}
+
+	public function getWeiyuList($page) {
+		$weiyuList = Weiyu::getWeiYuList($page);
+		if (!$weiyuList) {
+			throw new RequestMissException();
+		}
+		return $weiyuList;
 	}
 
 	public function getNewsTitle() {

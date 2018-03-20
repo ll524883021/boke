@@ -7,7 +7,6 @@
  */
 
 namespace app\api\model;
-use think\Model;
-class Img extends Model{
+class Img extends BaseModel{
 	
 }

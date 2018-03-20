@@ -1,9 +1,4 @@
-﻿/*
-作者：天兴工作室
-地址：http://www.txcstx.cn
-邮箱：admin@txcstx.cn
-*/
-body{
+﻿body{
 	margin:0px;
 	padding:0px;
 	color:#777;
@@ -131,4 +126,14 @@ li{list-style-type: none;}
 #guan ul li span {
 	float: right;
 	color: #999999;
+}
+
+.classify {
+	color: #00688B;
+	width:calc(100%/2 - 5px);
+	display: inline-block;
+}
+.weiyu-hr {
+	height: 1px;
+	background: #00688B;
 }

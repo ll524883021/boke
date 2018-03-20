@@ -10,6 +10,10 @@ Route::get('api/home/news/rand', 'api/home.Home/getNewsByRand');
 Route::get('api/home/classify', 'api/home.Home/getClassify');
 
 Route::get('api/home/weiyu', 'api/home.Home/getNewWeiyu');
+Route::get('api/home/weiyu/list', 'api/home.Home/getWeiyuList');
 
 Route::get('api/home/link', 'api/home.Home/getLink');
 
+Route::get('api/home/message', 'api/home.Message/getMessageList');
+
+Route::post('api/home/message/add', 'api/home.Message/addMessage');

@@ -4,6 +4,7 @@ $(document).ready(function () {
 
         this.onOff = true;
         this.type = 'all';
+        this.onOffUrl = true; 
 
         this.init = function() {
             this.getNewsList();
@@ -11,7 +12,14 @@ $(document).ready(function () {
         }
 
         this.getNewsList = function (flag,page) {
-            this.type = flag ? this.type = flag : 'all';
+            flag = flag ? this.type = flag : 'all';
+            if (this.onOffUrl) {
+                if ($.getUrlParam('id')) {
+                   flag = $.getUrlParam('id');
+                   this.onOffUrl = false;
+                }
+            }
+            this.type = flag;
             page = page ? page : 1;
             var that = this;
             $.ajax({
@@ -19,6 +27,7 @@ $(document).ready(function () {
                 method: 'get',
                 dataType: 'json',
                 success: function (res) {
+                    that.onOff = true;
                     that.setNewsList(res);
                 },
                 error: function (err) {
@@ -62,7 +71,10 @@ $(document).ready(function () {
             var that = this;
             $('.clickPage').on('click',function(){
                 var page = $(this).attr('data-page');
-                that.getNewsList(that.type,page);
+                if (that.onOff) {
+                    that.onOff = false;
+                    that.getNewsList(that.type,page);
+                }
             });
         }
 
@@ -94,7 +106,10 @@ $(document).ready(function () {
             var that = this;
             $('.classify').on('click',function(){
                 var id = $(this).attr('data-id');
-                that.getNewsList(id);
+                if (that.onOff) {
+                    that.onOff = false;
+                    that.getNewsList(id);
+                }
             })
         }
 
