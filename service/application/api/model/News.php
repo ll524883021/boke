@@ -1,9 +1,8 @@
 <?php
 namespace app\api\model;
 use think\Db;
-use think\Model;
 
-class News extends Model{
+class News extends BaseModel{
 
 	public function getCreateAtAttr($value) {
 		return date('Y-m-d H:i',$value);
