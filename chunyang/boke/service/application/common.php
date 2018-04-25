@@ -23,19 +23,14 @@ function curl_get($url) {
 	$data = '';
 
 	if (!empty($url) && function_exists('curl_init')) {
-		var_dump(1231);exit;
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_VERBOSE, 1);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
-
-//	        if (defined('SERVER_RESOURCE') && defined('HTTP_PROXY')) {
-//	        	curl_setopt($ch, CURLOPT_PROXY, HTTP_PROXY);
-//	        	curl_setopt($ch, CURLOPT_PROXYUSERPWD, HTTP_PPROXY_USERPWD);
-//	        }
-
+		
+		var_dump(curl_exec($ch));exit;
 		if (!curl_exec($ch)) {
 			error_log(curl_errno($ch).':'.curl_error($ch));
 			$data = '';
