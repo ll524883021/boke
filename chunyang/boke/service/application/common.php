@@ -29,7 +29,7 @@ function curl_get($url) {
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 	$data = curl_exec($ch);
-	var_dump($data);exit;
+	var_dump(curl_error($ch));exit;
 	curl_close($ch);
 }
 
