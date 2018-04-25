@@ -37,7 +37,7 @@ function curl_get($url) {
         	curl_setopt($ch, CURLOPT_PROXY, HTTP_PROXY);
         	curl_setopt($ch, CURLOPT_PROXYUSERPWD, HTTP_PPROXY_USERPWD);
         }
-		var_dump(curl_exec($ch));exit;
+		var_dump(curl_exec('www.baidu.com'));exit;
         if (!curl_exec($ch)) {
             error_log(curl_errno($ch).':'.curl_error($ch));
             $data = '';
