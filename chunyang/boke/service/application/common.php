@@ -4,51 +4,34 @@ use OSS\Core\OssException;
 
 
 // 应用公共文件
-function curl_get($url, &$httpCode = 0) {
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    // 设置是否输出结果
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-	// 设置是否输出header
-	curl_setopt($ch, CURLOPT_HEADER, false);
-    // 设置是否检查服务器端的证书
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-//    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
-    $file_contents = curl_exec($ch);
-    var_dump($file_contents);exit;
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
-	var_dump($file_contents);exit;
-    return $file_contents;
-}
-
-//function curl_get($url) {
-//	$data = '';
-//	
-//	if (!empty($url) && function_exists('curl_init')) {
-//		$ch = curl_init();
-//        curl_setopt($ch, CURLOPT_URL, $url);
-//        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-//        curl_setopt($ch, CURLOPT_VERBOSE, 1);
-//        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-//        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
-//        
-////        if (defined('SERVER_RESOURCE') && defined('HTTP_PROXY')) {
-////        	curl_setopt($ch, CURLOPT_PROXY, HTTP_PROXY);
-////        	curl_setopt($ch, CURLOPT_PROXYUSERPWD, HTTP_PPROXY_USERPWD);
-////        }
+//function curl_get($url, &$httpCode = 0) {
+//    $ch = curl_init();
+//    curl_setopt($ch, CURLOPT_URL, $url);
+//    // 设置是否输出结果
+//    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+//	// 设置是否输出header
+//	curl_setopt($ch, CURLOPT_HEADER, false);
+//    // 设置是否检查服务器端的证书
+//    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+////    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+//    $file_contents = curl_exec($ch);
+//    var_dump($file_contents);exit;
+//    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+//    curl_close($ch);
 //
-//        if (!curl_exec($ch)) {
-//            error_log(curl_errno($ch).':'.curl_error($ch));
-//            $data = '';
-//        } else {
-//            $data = curl_multi_getcontent($ch);
-//        }
-//        curl_close($ch);
-//	}
-//	var_dump($data);exit;
-//    return $data;
+//    return $file_contents;
 //}
+
+function curl_get($url) {
+	$ch = curl_init();
+	curl_setopt($ch,CURLOPT_URL,$url); 
+	curl_setopt($ch,CURLOPT_HEADER,0); 
+	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 ); 
+	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10); 
+	$res = curl_exec($ch);
+	var_dump($res);exit;
+	curl_close($ch); 
+}
 
 
 function curl_post_raw($url, $rawData) {
