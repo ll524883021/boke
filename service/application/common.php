@@ -12,7 +12,7 @@ function curl_get($url, &$httpCode = 0) {
 	// 设置是否输出header
 	curl_setopt($ch, CURLOPT_HEADER, false);
     // 设置是否检查服务器端的证书
-    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 1);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 1);
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
     $file_contents = curl_exec($ch);
     var_dump($file_contents);exit;
