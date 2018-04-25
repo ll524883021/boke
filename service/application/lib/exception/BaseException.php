@@ -10,7 +10,8 @@ class BaseException extends Exception {
 
     public function __construct($params = []) {
         if (!is_array($params)) {
-            throw new Exception('参数必须是数组');
+//            throw new Exception('参数必须是数组');
+            return;
         }
 
         if (array_key_exists('code',$params)) {
@@ -24,5 +25,6 @@ class BaseException extends Exception {
         if (array_key_exists('errorCode',$params)) {
             $this->errorCode = $params['errorCode'];
         }
+
     }
 }
