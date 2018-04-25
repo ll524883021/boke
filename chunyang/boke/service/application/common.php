@@ -23,6 +23,7 @@ function curl_get($url) {
 	$data = '';
 
 	if (!empty($url) && function_exists('curl_init')) {
+		var_dump(1231);exit;
 		$ch = curl_init();
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
