@@ -24,12 +24,12 @@ use OSS\Core\OssException;
 
 function curl_get($url) {
 	$ch = curl_init();
+	var_dump($ch);exit;
 	curl_setopt($ch,CURLOPT_URL,$url); 
 	curl_setopt($ch,CURLOPT_HEADER,0); 
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 ); 
 	curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10); 
 	$res = curl_exec($ch);
-	var_dump($res);exit;
 	curl_close($ch); 
 }
 
