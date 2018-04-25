@@ -29,8 +29,7 @@ function curl_get($url) {
 		curl_setopt($ch, CURLOPT_VERBOSE, 1);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
-		
-		var_dump(curl_exec($ch));exit;
+		var_dump($url);exit;
 		if (!curl_exec($ch)) {
 			error_log(curl_errno($ch).':'.curl_error($ch));
 			$data = '';
