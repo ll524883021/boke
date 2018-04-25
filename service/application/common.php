@@ -32,12 +32,13 @@ function curl_get($url) {
         curl_setopt($ch, CURLOPT_VERBOSE, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
         curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
-        
+        curl_setopt($curlp, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
+
         if (defined('SERVER_RESOURCE') && defined('HTTP_PROXY')) {
         	curl_setopt($ch, CURLOPT_PROXY, HTTP_PROXY);
         	curl_setopt($ch, CURLOPT_PROXYUSERPWD, HTTP_PPROXY_USERPWD);
         }
-        var_dump(curl_error($ch));exit;
+        
 		var_dump(curl_exec($ch));exit;
         if (!curl_exec($ch)) {
             error_log(curl_errno($ch).':'.curl_error($ch));
