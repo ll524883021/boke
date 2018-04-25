@@ -41,7 +41,7 @@ function curl_get($url) {
 		}
 		curl_close($ch);
 	}
-	var_dump($data);exit;
+	var_dump($url);exit;
 	return $data;
 }
 
