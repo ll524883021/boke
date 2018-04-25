@@ -5,6 +5,7 @@ use OSS\Core\OssException;
 
 // 应用公共文件
 function curl_get($url, &$httpCode = 0) {
+	var_dump($url);exit;
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     // 设置是否输出结果
