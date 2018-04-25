@@ -30,8 +30,8 @@ function curl_get($url) {
 		curl_setopt($ch, CURLOPT_URL, $url);
 		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 		curl_setopt($ch, CURLOPT_VERBOSE, 1);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, TRUE);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, TRUE);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 1);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
 		
 		if (!curl_exec($ch)) {
 			error_log(curl_errno($ch).':'.curl_error($ch));
@@ -41,7 +41,7 @@ function curl_get($url) {
 		}
 		curl_close($ch);
 	}
-	var_dump($data);exit;
+	var_dump($url);exit;
 	return $data;
 }
 
