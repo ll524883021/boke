@@ -237,4 +237,12 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+
+	//阿里云OSS配置
+	'aliyun_oss' => [
+		'KeyId'      => 'LTAIYq8uOGauiIyr',  //您的Access Key ID
+		'KeySecret'  => '1eqtZVWPIc7Na47jGBiHElwqGbYVqr',  //您的Access Key Secret
+		'Endpoint'   => 'oss-cn-beijing.aliyuncs.com',  //阿里云oss 外网地址endpoint
+		'Bucket'     => 'chunyang',  //Bucket名称
+	],
 ];

@@ -1,13 +1,7 @@
 <?php
-// +----------------------------------------------------------------------
-// | ThinkPHP [ WE CAN DO IT JUST THINK ]
-// +----------------------------------------------------------------------
-// | Copyright (c) 2006-2016 http://thinkphp.cn All rights reserved.
-// +----------------------------------------------------------------------
-// | Licensed ( http://www.apache.org/licenses/LICENSE-2.0 )
-// +----------------------------------------------------------------------
-// | Author: 流年 <liu21st@gmail.com>
-// +----------------------------------------------------------------------
+use OSS\OssClient;
+use OSS\Core\OssException;
+
 
 // 应用公共文件
 function curl_get($url, &$httpCode = 0) {
@@ -55,4 +49,49 @@ function getRandChar($length) {
     }
 
     return $str;
+}
+
+//返回当前的毫秒时间戳
+function msectime() {
+	list($msec, $sec) = explode(' ', microtime());
+	$msectime =  (float)sprintf('%.0f', (floatval($msec) + floatval($sec)) * 1000);
+
+	return $msectime;
+}
+
+/**
+ * 实例化阿里云OSS
+ * @return object 实例化得到的对象
+ * @return 此步作为共用对象，可提供给多个模块统一调用
+ */
+function new_oss(){
+	//获取配置项，并赋值给对象$config
+	$config=config('aliyun_oss');
+	//实例化OSS
+	$oss=new \OSS\OssClient($config['KeyId'],$config['KeySecret'],$config['Endpoint']);
+	return $oss;
+}
+
+/**
+ * 上传指定的本地文件内容
+ *
+ * @param OssClient $ossClient OSSClient实例
+ * @param string $bucket 存储空间名称
+ * @param string $object 上传的文件名称
+ * @param string $Path 本地文件路径
+ * @return null
+ */
+function uploadFile($bucket,$object,$Path){
+	//try 要执行的代码,如果代码执行过程中某一条语句发生异常,则程序直接跳转到CATCH块中,由$e收集错误信息和显示
+	try{
+		//没忘吧，new_oss()是我们上一步所写的自定义函数
+		$ossClient = new_oss();
+		//uploadFile的上传方法
+		$result = $ossClient->uploadFile($bucket, $object, $Path);
+	} catch(OssException $e) {
+		//如果出错这里返回报错信息
+		return $e->getMessage();
+	}
+	//否则，完成上传操作
+	return $result['info']['url'];
 }
