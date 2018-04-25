@@ -22,8 +22,8 @@ class UserToken extends Token{
 	}
 
 	public function get() {
-		var_dump($this->wxLoginUrl);exit;
 		$result = curl_get($this->wxLoginUrl);
+		var_dump($result);exit;
 		$wxResult = json_decode($result, true);
 		if (empty($wxResult)) {
 			throw new Exception('获取session_key及openId时异常');
