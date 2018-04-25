@@ -4,20 +4,49 @@ use OSS\Core\OssException;
 
 
 // 应用公共文件
-function curl_get($url, &$httpCode = 0) {
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+//function curl_get($url, &$httpCode = 0) {
+//    $ch = curl_init();
+//    curl_setopt($ch, CURLOPT_URL, $url);
+//    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+//
+//    //不做证书校验，部署在linux环境下请改为true
+//    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+//    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+//    $file_contents = curl_exec($ch);
+//    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+//    curl_close($ch);
+//
+//    return $file_contents;
+//}
 
-    //不做证书校验，部署在linux环境下请改为true
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
-    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
-    $file_contents = curl_exec($ch);
-    $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    curl_close($ch);
+function curl_get($url) {
+	$data = '';
 
-    return $file_contents;
+	if (!empty($url) && function_exists('curl_init')) {
+		$ch = curl_init();
+		curl_setopt($ch, CURLOPT_URL, $url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt($ch, CURLOPT_VERBOSE, 1);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
+
+//	        if (defined('SERVER_RESOURCE') && defined('HTTP_PROXY')) {
+//	        	curl_setopt($ch, CURLOPT_PROXY, HTTP_PROXY);
+//	        	curl_setopt($ch, CURLOPT_PROXYUSERPWD, HTTP_PPROXY_USERPWD);
+//	        }
+
+		if (!curl_exec($ch)) {
+			error_log(curl_errno($ch).':'.curl_error($ch));
+			$data = '';
+		} else {
+			$data = curl_multi_getcontent($ch);
+		}
+		curl_close($ch);
+	}
+
+	return $data;
 }
+
 
 function curl_post_raw($url, $rawData) {
 	$ch = curl_init();
