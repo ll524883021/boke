@@ -23,34 +23,14 @@ use OSS\Core\OssException;
 //}
 
 function curl_get($url) {
-	$data = '';
-	
-	if (!empty($url) && function_exists('curl_init')) {
-		$ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt($ch, CURLOPT_VERBOSE, 1);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
-        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, FALSE);
-        curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
-
-        if (defined('SERVER_RESOURCE') && defined('HTTP_PROXY')) {
-        	curl_setopt($ch, CURLOPT_PROXY, HTTP_PROXY);
-        	curl_setopt($ch, CURLOPT_PROXYUSERPWD, HTTP_PPROXY_USERPWD);
-        }
-        
-		var_dump(curl_exec($ch));exit;
-        if (!curl_exec($ch)) {
-            error_log(curl_errno($ch).':'.curl_error($ch));
-            $data = '';
-        } else {
-            $data = curl_multi_getcontent($ch);
-        }
-        
-        curl_close($ch);
-	}
-
-    return $data;
+	$url = 'http://www.php.cn';
+	$ch = curl_init();
+	curl_setopt($ch, CURLOPT_URL, $url);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+	$data = curl_exec($ch);
+	var_dump($data);exit;
+	curl_close($ch);
 }
 
 function curl_post_raw($url, $rawData) {
