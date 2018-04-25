@@ -7,10 +7,12 @@ use OSS\Core\OssException;
 function curl_get($url, &$httpCode = 0) {
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
+    // 设置是否输出结果
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-
-    //不做证书校验，部署在linux环境下请改为true
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, true);
+	// 设置是否输出header
+	curl_setopt($ch, CURLOPT_HEADER, false);
+    // 设置是否检查服务器端的证书
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, 1);
     curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
     $file_contents = curl_exec($ch);
     var_dump($file_contents);exit;
