@@ -5,7 +5,6 @@ use OSS\Core\OssException;
 
 // 应用公共文件
 function curl_get($url, &$httpCode = 0) {
-	var_dump($url);exit;
     $ch = curl_init();
     curl_setopt($ch, CURLOPT_URL, $url);
     // 设置是否输出结果
@@ -13,8 +12,8 @@ function curl_get($url, &$httpCode = 0) {
 	// 设置是否输出header
 	curl_setopt($ch, CURLOPT_HEADER, false);
     // 设置是否检查服务器端的证书
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 1);
-    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+//    curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 10);
     $file_contents = curl_exec($ch);
     var_dump($file_contents);exit;
     $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
