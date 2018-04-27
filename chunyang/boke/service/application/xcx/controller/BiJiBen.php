@@ -40,7 +40,7 @@ class BiJiBen extends BaseController{
 		$id = input('post.id');
 		$uid = Token::getCurrentUid();
 		$bijiInfo = Biji::get(function($query) use ($id){
-			$query->where('id',$id)->field(['uid']);
+			$query->field(['uid'])->where('id',$id);
 		});
 		var_dump($bijiInfo,$id);exit;
 	}
