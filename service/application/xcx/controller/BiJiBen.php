@@ -34,4 +34,14 @@ class BiJiBen extends BaseController{
 			return $data;
 		}
 	}
+
+	public function updateBiJiBen() {
+		$bijibenName = input('post.name');
+		$id = input('post.id');
+		$uid = Token::getCurrentUid();
+		$bijiInfo = Biji::get(function($query) use ($id){
+			$query->where('id',$id)->field(['uid']);
+		});
+		var_dump($bijiInfo,$id);exit;
+	}
 }

@@ -49,5 +49,6 @@ Route::post('xcx/images/upload','xcx/Images/upload');
 
 //笔记本
 Route::post('xcx/bijiben/add','xcx/BiJiBen/addBiJiBen');
+Route::post('xcx/bijiben/update','xcx/BiJiBen/addBiJiBen');
 Route::get('xcx/bijiben','xcx/BiJiBen/getBiJiBen');
 
