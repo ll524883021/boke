@@ -1,7 +1,1 @@
-<<<<<<< HEAD
-number 2װ
-=======
-number 1
-
-nunber 3װ
->>>>>>> c9a871dc53cf768646c6aa5f9ef64c21f91ded7f
+linux
